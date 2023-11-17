@@ -5,7 +5,6 @@ import Footer from '../../Components/Footer/Footer'
 const Landing = () => {
   return (
     <div>
-      <h1>Trifasten website</h1>
       <Navbar/>
       <Footer/>
     </div>
