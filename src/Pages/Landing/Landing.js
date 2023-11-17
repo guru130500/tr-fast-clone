@@ -10,7 +10,6 @@ import Latest from './Latest';
 const Landing = () => {
   return (
     <div>
-      <h1>Trifasten website</h1>
       <Navbar/>
       <Portfolio/>
       <Industry/>
