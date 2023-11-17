@@ -1,0 +1,92 @@
+.portfolio-main-div{
+    height: 540px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-image: url('https://scanfast.dk/sites/default/files/styles/lg/public/CompanyPhoto_4.webp?itok=Zdc_FLwM');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+   
+}
+.Portfolio-inner-div{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(22, 104, 218, 0.764);
+    /* clip-path: polygon(0, 0, 100% 0%, 100% 100%, 0% 70%); */
+        clip-path: polygon(0 0, 360% 0, 180% 200%, 0 75%);
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.portfolio-content-div{
+width: 60%;
+}
+.portfolio-content-div h5{
+    font-size: 17px;
+    color: white;
+    margin: 0px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    font-weight: 600;
+   
+}
+.portfolio-content-div h2{
+    font-size: 35px;
+    color: white;
+    margin: 0px;
+    font-weight: 400;
+}
+.portfolio-content-div p{
+    color: white;
+    font-size: 19px;
+}
+.portfolio-content-div button{
+    height: 43px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
+}
+.portfolio-content-div button:hover{
+    background-color: white;
+    color: black;
+    transition:  0.3s ease;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:780px) {
+    .portfolio-main-div{
+       flex-direction: column;
+       background-size:100% 100%;
+        height: 600px;
+        padding: 20px;
+  
+        margin-left: 5px;
+    }
+    .Portfolio-inner-div{
+        height: 50%;
+        width: 100%;
+        background-color: rgba(22, 104, 218, 0.764);
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       padding-left: 5px;
+       clip-path: none
+    
+    }
+    .portfolio-content-div{
+    
+        width: 100%;
+    }
+}

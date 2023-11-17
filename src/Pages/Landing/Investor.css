@@ -1,0 +1,127 @@
+.Investor-main-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.investor-left-div{
+    height: 100%;
+    width: 50%;
+    
+}
+.investor-right-div{
+    height: 100%;
+    width: 50%;
+   background-color: rgb(7, 166, 194);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.investor-right-div div{
+    height: 70%;
+    width: 60%;
+    /* border: 1px solid red; */
+}
+
+.investor-right-div div h4:nth-child(1){
+    color: white;
+    font-weight: 500;
+    margin: 0px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+  
+}
+.investor-right-div div h1{
+    color: white;
+    font-weight: 400;
+    font-size: 38px;
+    margin-top:10px;
+}
+.investor-right-div div p:nth-child(3){
+  color: white;
+  font-size: 18px;
+}
+.investor-right-div div h4:nth-child(4){
+    color: white;
+    font-weight: 700;
+    margin: 0px;
+ font-size: 18px;
+
+  
+}
+.investor-right-div div p:nth-child(5){
+   color: white;
+   font-size: 20px;
+   margin-top: 5px;
+
+  
+}
+.investor-right-div div button{
+    height: 43px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.investor-right-div div button:hover{
+    background-color: white;
+    color: black;
+    transition:  0.3s ease;
+    cursor: pointer;
+}
+
+@media screen and (max-width:780px) {
+    .Investor-main-div{
+        flex-direction:column;
+        height: 550px;
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+    .investor-left-div{
+         width: 100%;
+    }
+    .investor-right-div{
+        height: 100%;
+        width: 100%;
+   
+    }
+    .investor-right-div div{
+        height: 100%;
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .investor-right-div div h1{
+ 
+        font-size: 25px;
+      
+    }
+
+    .investor-right-div div p:nth-child(3){
+    
+        font-size: 14px;
+      }
+     
+      .investor-right-div div p:nth-child(5){
+       
+         font-size: 15px;
+   
+      
+        
+      }
+      .investor-right-div div button{
+          height: 43px;
+          width: 200px;
+          border-radius: 5px;
+          font-size: 16px;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+      }
+      
+}

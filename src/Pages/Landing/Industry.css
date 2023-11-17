@@ -1,0 +1,372 @@
+.Industry-data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+
+
+.Industry-data h4{
+    width: 50%;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    border-bottom: 1px solid rgb(213, 211, 211);
+    padding: 10px;
+}
+
+
+.Industry-data p{
+    width: 50%;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+
+.diagonal-bg1 {
+    position: relative;
+    width: 200px; /* Adjust the size of your square */
+    height: 200px;
+ 
+    background: linear-gradient(30deg, rgba(83, 145, 239, 0.904) 50%, rgba(255, 255, 255, 0.225) 50%);
+   
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease; /* Add a smooth transition effect */
+    z-index: 3;
+  }
+
+
+
+
+  .diagonal-bg1:hover {
+    background-position:0 100% ; /* Move the background position to cover the left side on hover */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .diagonal-parent1{
+    height: 200px;
+    width: 200px;
+   
+    background-image: url('https://img.freepik.com/premium-photo/automobile-model-is-blue-sports-car-with-black-roof_954226-24869.jpg?size=626&ext=jpg&ga=GA1.1.126910640.1677663457&semt=ais');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat; 
+}
+
+
+
+
+.diagonal-bg2 {
+    position: relative;
+    width: 200px; /* Adjust the size of your square */
+    height: 200px;
+
+    background: linear-gradient(30deg, rgba(83, 208, 239, 0.886) 50%, rgba(255, 255, 255, 0.225) 50%);
+   
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease; /* Add a smooth transition effect */
+    z-index: 3;
+  }
+
+
+
+
+  .diagonal-bg2:hover {
+    background-position:0 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Move the background position to cover the left side on hover */
+  }
+
+.diagonal-parent2{
+    height: 200px;
+    width: 200px;
+    background-image: url('https://cdn.cejn.com/contentassets/65fc1e2734574b2cac1ec79d549c0840/uhp-hose-reels-launch.jpg?preset=contentpagefullwidth&width=1385');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+
+/* diagonal bg 3*/
+
+
+
+.diagonal-bg3 {
+    position: relative;
+    width: 200px; /* Adjust the size of your square */
+    height: 200px;
+
+    background: linear-gradient(30deg, rgba(244, 175, 56, 0.929) 50%, rgba(255, 255, 255, 0.225) 50%);
+   
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease; /* Add a smooth transition effect */
+    z-index: 3;
+  }
+
+
+
+
+  .diagonal-bg3:hover {
+    background-position:0 100% ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Move the background position to cover the left side on hover */
+  }
+
+.diagonal-parent3{
+    height: 200px;
+    width: 200px;
+    background-image: url('https://142883.fs1.hubspotusercontent-na1.net/hub/142883/hubfs/Home_Healthcare.jpg?t=1457742853759&width=294&height=192&name=Home_Healthcare.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+/* diagonal bg 4*/
+
+.diagonal-bg4 {
+    position: relative;
+    width: 200px; /* Adjust the size of your square */
+    height: 200px;
+
+    background: linear-gradient(30deg, rgba(106, 4, 143, 0.774) 50%, rgba(255, 255, 255, 0.225) 50%);
+   
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease; /* Add a smooth transition effect */
+    z-index: 3;
+  }
+
+
+
+
+  .diagonal-bg4:hover {
+    background-position:0 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Move the background position to cover the left side on hover */
+  }
+
+.diagonal-parent4{
+    height: 200px;
+    width: 200px;
+    background-image: url('https://www.iskra.eu/f/pics/news/Untitled_design_13_m.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/* diagonal bg 5*/
+
+.diagonal-bg5 {
+    position: relative;
+    width: 200px; /* Adjust the size of your square */
+    height: 200px;
+
+    background: linear-gradient(30deg, rgba(1, 51, 127, 0.777) 50%, rgba(255, 255, 255, 0.225) 50%);
+   
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease; /* Add a smooth transition effect */
+    z-index: 3;
+  }
+
+
+
+
+  .diagonal-bg5:hover {
+    background-position:0 100% ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Move the background position to cover the left side on hover */
+  }
+
+.diagonal-parent5{
+    height: 200px;
+    width: 200px;
+    background-image: url('https://www.lenaire.com/wp-content/uploads/2020/07/hGGyUUBAs8rNTL7RhrQqJRnyJETbP3HVuRt5f7w6-8-150x150.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/* diagonal bg 6*/
+
+.diagonal-bg6 {
+    position: relative;
+    width: 200px; /* Adjust the size of your square */
+    height: 200px;
+
+    background: linear-gradient(30deg, rgba(7, 76, 181, 0.875) 50%, rgba(255, 255, 255, 0.225) 50%);
+   
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease; /* Add a smooth transition effect */
+    z-index: 3;
+  }
+
+
+
+
+  .diagonal-bg6:hover {
+    background-position:0 100% ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Move the background position to cover the left side on hover */
+  }
+
+.diagonal-parent6{
+    height: 200px;
+    width: 200px;
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ6MOiayAKciihLMUt_pntCikoRYmH_GSiNsOJ6hcLZHkYDpc6J');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+
+/* Industry Divs*/
+
+
+.Industry-divs{
+    margin-top: 40px;
+    width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+    /* border: 1px solid yellow; */
+    gap: 15px;
+}
+.Industry-divs div{
+    height: 330px;
+    width: 450px;
+    border: 1px solid white;
+}
+
+
+
+
+.Industry-divs .diagonal-heading{
+    position: relative;
+    top: 60%;
+     left: 5%;
+    color: white;
+    
+}
+
+
+
+.diagonal-data{
+    display: none;
+}
+
+.diagonal-bg1:hover .diagonal-heading{
+    display: none;
+
+}
+.diagonal-bg1:hover .diagonal-data{
+    width: 90%;
+    color: white;
+   text-align: center;
+   font-size: 25px;
+    display: block;
+}
+
+.diagonal-bg2:hover .diagonal-heading{
+    display: none;
+
+}
+.diagonal-bg2:hover .diagonal-data{
+    width: 90%;
+    color: white;
+   text-align: center;
+   font-size: 25px;
+    display: block;
+}
+
+/*......*/
+.diagonal-bg3:hover .diagonal-heading{
+    display: none;
+
+}
+.diagonal-bg3:hover .diagonal-data{
+    width: 90%;
+    color: white;
+   text-align: center;
+   font-size: 25px;
+    display: block;
+}
+
+/*.......*/
+.diagonal-bg4:hover .diagonal-heading{
+    display: none;
+
+}
+.diagonal-bg4:hover .diagonal-data{
+    width: 90%;
+    color: white;
+   text-align: center;
+   font-size: 25px;
+    display: block;
+}
+/*........*/
+
+.diagonal-bg5:hover .diagonal-heading{
+    display: none;
+
+}
+.diagonal-bg5:hover .diagonal-data{
+    width: 90%;
+    color: white;
+   text-align: center;
+   font-size: 25px;
+    display: block;
+}
+
+/*.......*/
+.diagonal-bg6:hover .diagonal-heading{
+    display: none;
+
+}
+.diagonal-bg6:hover .diagonal-data{
+    width: 90%;
+    color: white;
+   text-align: center;
+   font-size: 25px;
+    display: block;
+}
+
+@media screen and (max-width:780px) {
+    .Industry-divs div{
+        height: 320px;
+        width: 400px;
+        border: 1px solid white;
+    }
+    .Industry-divs{
+        padding: 15px;
+        margin-left: 5px;
+    }
+    .Industry-data{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        /* border: 1px solid red; */
+        padding: 15px;
+    }
+    .Industry-data p{
+        width: 100%
+    }
+    .Industry-data h4{
+        width: 100%;
+    }
+    
+    
+}
