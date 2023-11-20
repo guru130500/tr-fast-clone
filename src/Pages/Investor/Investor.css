@@ -1,0 +1,109 @@
+.Investor-first-div{
+    width: 100%;
+    height:auto;
+    position: relative;
+    /* border: 2px solid green; */
+}
+.Investor-first-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.Investor-first-div .Investor-inner-div{
+    height:450px;
+    /* padding: 30px; */
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   /* border: 1px solid red; */
+   background: linear-gradient(to bottom left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.921) 50%, rgba(255, 255, 255, 0.816) 100%);
+}
+
+.Investor-first-div .Investor-inner-div div{
+  
+    top:40%;
+    left: 5%;
+    height: 45%;
+    width: 40%;
+    /* border:1px solid blue; */
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.Investor-first-div .Investor-inner-div div h4{
+    margin: 0px;
+    color: purple;
+}
+.Investor-first-div .Investor-inner-div div h1{
+    color: rgb(5, 24, 85);
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.Investor-first-div .Investor-inner-div div p{
+   
+    margin-top: 10px;
+}
+.Investor-first-div .Investor-inner-div div img{
+   height: 47%;
+   width: 85%;
+  margin-top: 10%;
+}
+
+.Investor-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: #002b80;
+    padding: 3.2%;
+}
+.Investor-div2 p{
+    color: white;
+    font-size: 28px;
+   height: 30%;
+   width: 65%;
+}
+
+
+@media screen and (max-width:780px) {
+  
+    .Investor-first-div .Investor-inner-div{
+        height:50%;
+    /* border: 1px solid blue; */
+        width: 100%;
+        position: relative;
+        background: white;
+       
+    }
+    .Investor-first-div .Investor-inner-div div{
+        /* position:absolute; */
+       margin: 0px;
+       padding: 3%;
+      height:80%;
+        width: 90%;
+        /* border:1px solid blue; */
+    }
+    .Investor-div2 p{
+        color: white;
+        font-size: 30px;
+       height: 60%;
+       width: 90%;
+    }
+    .Investor-first-div .Investor-inner-div div h1{
+    
+        margin-top: 5px;
+        margin-bottom:0px;
+    }
+    .Investor-first-div .Investor-inner-div div img{
+        height: 60%;
+        width: 90%;
+        margin-top: 0%;
+     
+     }
+     
+}

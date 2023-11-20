@@ -2,8 +2,9 @@ import React from "react";
 import "./Navbar.css";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import SearchIcon from "@mui/icons-material/Search";
-
+import { Navigate, useNavigate } from "react-router-dom";
 const Navbar = () => {
+  const navigate=useNavigate()
   return (
     <div className="navbarBody">
       <nav className="navbar-expand">
@@ -34,14 +35,14 @@ const Navbar = () => {
               </div>
               <div className="menu-list">
                 <div className="menuContainer">
-                  <div className="company">
-                    Company
+                  <div className="company" onClick={()=>navigate('/company')}>
+                     Company
                     <span>
                       {" "}
                       <ArrowDropDownIcon />
                     </span>
                   </div>
-                  <div>
+                  <div onClick={()=>navigate('/investor')}>
                     Investors
                     <span>
                       {" "}
@@ -163,7 +164,7 @@ const Navbar = () => {
 
             {/* --------Company--------- */}
             
-          <div class="nav-dropdown-menu-body">
+          {/* <div class="nav-dropdown-menu-body">
                 <div class="row">
                   <div class="col-md-3">
                     <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--parent">
@@ -290,7 +291,7 @@ const Navbar = () => {
                     </div>{" "}
                   </div>
                 </div>
-          </div>
+          </div> */}
 
           {/*------------ Products------------- */}
 

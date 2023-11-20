@@ -1,0 +1,88 @@
+.Company-slider-main-div{
+    width: 100%;
+    height:auto;
+    position: relative;
+}
+.Company-slider-main-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.Company-slider-main-div .Company-slider-inner-div{
+    height:80%;
+    /* padding: 30px; */
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   /* border: 1px solid red; */
+   background: linear-gradient(to bottom left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.921) 50%, rgba(255, 255, 255, 0.816) 100%);
+}
+
+
+.Company-slider-main-div .Company-slider-inner-div div h4{
+    margin-left: 5%;
+    font-size: 30px;
+    margin-top: 28%;
+    font-weight: 400;
+
+}
+
+
+.Company-slider-main-div .Company-slider-inner-div div p{
+    margin-left: 5%;
+    width: 50%;
+    font-size: 18px;
+  
+
+}
+.Company-slider-main-div .Company-slider-inner-div div button{
+    margin-left: 5%;
+    height: 43px;
+    width: 130px;
+   border-radius: 5px;
+   background-color: #2eb8b8;
+   color: white;
+   font-weight: 500;
+   border-color: transparent;
+
+  
+
+
+}
+.Company-carousal{
+    height: auto !important;
+}
+@media screen and (max-width:780px) {
+   
+    .Company-slider-main-div .Company-slider-inner-div{
+        height:50%;
+    /* border: 1px solid blue; */
+        width: 100%;
+        position: relative;
+        background: white;
+       
+    }
+    .Company-slider-main-div .Company-slider-inner-div div{
+        /* position:absolute; */
+       margin: 0px;
+       padding: 3%;
+        height: 85%;
+        width: 85%;
+        /* border:1px solid blue; */
+    }
+    .Company-slider-main-div .Company-slider-inner-div div h4{
+        margin-left: 1%;
+        margin-top: 0px;
+    }
+    .Company-slider-main-div .Company-slider-inner-div div p{
+       width: 100%;
+       margin-left: 1%;
+    }
+ 
+    .Company-slider-main-div .Company-slider-inner-div div button {
+     
+        margin-left: 1%;
+     }
+}

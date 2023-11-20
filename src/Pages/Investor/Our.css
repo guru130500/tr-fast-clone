@@ -1,0 +1,58 @@
+.Our-main-div{
+    width: 100%;
+   height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.Our-main-div div{
+    height: 90%;
+    width: 65%;
+    /* border: 1px solid red; */
+}
+.Our-main-div div h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.Our-main-div div p{
+    font-size: 18px;
+    font-weight: 400;
+ 
+}
+.Our-main-div div p span{
+  
+   font-weight: bolder;
+ 
+}
+.Our-main-div div button{
+  width: 130px;
+  height: 43px;
+  border-radius: 4px;
+  background-color: transparent
+  ;
+  color: #00749b;
+  font-weight: 500;
+  border: 1px solid #00749b;
+  font-size: 17px;
+ 
+}
+.Our-main-div div button:hover{
+    cursor: pointer;
+    color: white;
+     background-color:  #0395c6;
+     transition: 0.3s ease;
+   
+  }
+  @media screen and (max-width:780px) {
+    .Our-main-div{
+        width: 100%;
+        /* border: 1px solid blue; */
+    }
+    .Our-main-div div{
+        height: 90%;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+  }
