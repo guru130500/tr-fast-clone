@@ -2,17 +2,12 @@ import React from "react";
 import "./Navbar.css";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import SearchIcon from "@mui/icons-material/Search";
-import { Navigate, useNavigate } from "react-router-dom";
-const Navbar = () => {
-  const navigate=useNavigate()
-
-import MenuIcon from '@mui/icons-material/Menu';
+import { useNavigate } from "react-router-dom";
 import CloseIcon from '@mui/icons-material/Close';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import { useNavigate } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -40,9 +35,6 @@ const Navbar = () => {
     const closeToggle = document.querySelector(".closeToggle");
     closeToggle.style.display = 'none';
 
-
-
-    
   }
 
   return (
@@ -813,7 +805,7 @@ const Navbar = () => {
               onClick={()=> openToggle()}
               // style={{border:'1px solid red'}}
               >
-                <MenuIcon/>
+              =
               </div>
               <div 
               className="closeToggle"

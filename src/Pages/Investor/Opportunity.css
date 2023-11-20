@@ -5,10 +5,9 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     /* border: 1px solid blue; */
-    gap: 10px;
 }
 .Opportunity-main-div div{
     position: relative;
@@ -17,7 +16,8 @@
     justify-content:flex-start;
     align-items: flex-start;
     height: 280px;
-    width: 370px;
+    width: 24.4%;
+    margin: 5px 0px 5px 0px;
     /* border: 1px solid red; */
 }
 .Opportunity-main-div div:nth-child(1){
