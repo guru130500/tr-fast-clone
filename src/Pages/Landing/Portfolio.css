@@ -9,14 +9,15 @@
     display: flex;
     justify-content: flex-end;
     /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
-   
+    z-index: -7 !important; 
 }
+
 .Portfolio-inner-div{
     height: 100%;
     width: 50%;
     background-color: rgba(22, 104, 218, 0.764);
     /* clip-path: polygon(0, 0, 100% 0%, 100% 100%, 0% 70%); */
-        clip-path: polygon(0 0, 360% 0, 180% 200%, 0 75%);
+    clip-path: polygon(0 0, 360% 0, 180% 200%, 0 75%);
     display:flex ;
     flex-direction: column;
     justify-content: center;
@@ -70,8 +71,7 @@ width: 60%;
        background-size:100% 100%;
         height: 600px;
         padding: 20px;
-  
-        margin-left: 5px;
+        /* margin-left: 5px; */
     }
     .Portfolio-inner-div{
         height: 50%;

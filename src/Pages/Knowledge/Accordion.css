@@ -1,0 +1,30 @@
+.Knowledge-Accordion{
+    width: 80%;
+}
+
+.Knowledge-Accordion-card{
+    /* height: 70px; */
+    margin: 10px 0px 10px 0px;
+    border: none !important;
+    box-shadow: none !important;
+    /* border: 1px solid red !important; */
+}
+
+/* .Knowledge-Accordion-card:hover{
+    border: 1px solid red !important;
+} */
+
+.Knowledge-Accordion h5{
+    color: #38a2dc !important;
+    margin-left: 40px;
+}
+
+.addCircleOutlineIcon{
+    color: #38a2dc !important;
+    font-size: 45px !important;
+    font-weight: 1 !important;
+}
+
+@media (min-width:250px) and (max-width:991px){
+
+}
