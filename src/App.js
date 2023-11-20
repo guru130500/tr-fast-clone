@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Industries from './Pages/Industries/Industries';
 import Services from './Pages/Services/Services';
 import Knowledge from './Pages/Knowledge/Knowledge';
+import Sustainability from './Pages/Sustainability/Sustainability';
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
           <Route path='/knowledge-base' element={<Knowledge/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/industries' element={<Industries/>}/>
-          <Route path='/sustainability' element={<Landing/>}/>
+          <Route path='/sustainability' element={<Sustainability/>}/>
           <Route path='/contact' element={<Landing/>}/>
         </Routes>
       </BrowserRouter>

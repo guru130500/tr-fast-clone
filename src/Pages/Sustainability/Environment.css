@@ -1,19 +1,19 @@
-.company-div{
+.Environment-div{
     width: 100%;
     height:auto;
     position: relative;
     /* border: 2px solid green; */
 }
-.company-div img{
+.Environment-div img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 
 }
-.company-div .company-inner-div{
-    height:450px;
+.Environment-div .Environment-inner-div{
+    height:90%;
     /* padding: 30px; */
-    width: 60%;
+    width: 70%;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -21,33 +21,34 @@
    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.921) 50%, rgba(255, 255, 255, 0.816) 100%);
 }
 
-.company-div .company-inner-div div{
+.Environment-div .Environment-inner-div div{
   
     top:40%;
     left: 5%;
     height: 45%;
-    width: 40%;
+    width: 30%;
     /* border:1px solid blue; */
-    margin-top: 20%;
+    margin-top: 30%;
     margin-left: 5%;
 }
 
-.company-div .company-inner-div div h4{
+.Environment-div .Environment-inner-div div h6{
     margin: 0px;
     color: purple;
 }
-.company-div .company-inner-div div h1{
+.Environment-div .Environment-inner-div div h1{
     color: rgb(5, 24, 85);
     font-size: 40px;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 0px;
 }
-.company-div .company-inner-div div p{
+.Environment-div .Environment-inner-div div p{
    
     margin-top: 10px;
+    font-size: 20px;
 }
-.company-div2{
+.Environment-div2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +57,7 @@
     background-color: #002b80;
     padding: 3.4%;
 }
-.company-div2 p{
+.Environment-div2 p{
     color: white;
     font-size: 28px;
    height: 50%;
@@ -66,7 +67,7 @@
 
 @media screen and (max-width:768px) {
   
-    .company-div .company-inner-div{
+    .Environment-div .Environment-inner-div{
         height:50%;
     /* border: 1px solid blue; */
         width: 100%;
@@ -74,7 +75,7 @@
         background: white;
        
     }
-    .company-div .company-inner-div div{
+    .Environment-div .Environment-inner-div div{
         /* position:absolute; */
        margin: 0px;
        padding: 3%;
@@ -82,7 +83,7 @@
         width: 85%;
         /* border:1px solid blue; */
     }
-    .company-div2 p{
+    .Environment-div2 p{
         color: white;
         font-size: 30px;
        height: 60%;
@@ -90,3 +91,5 @@
     }
  
 }
+
+
