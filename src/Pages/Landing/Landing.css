@@ -1,0 +1,24 @@
+/* ------------------------------- */
+
+.anouncement{
+    height: 70px;
+    width: 100%;
+    background: #38a2dc;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 7px;
+    
+}
+
+.anouncementImg{
+    z-index: 5;
+    margin-top: 7px;
+}
+.anouncement p{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+}

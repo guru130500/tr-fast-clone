@@ -1,0 +1,13 @@
+.ContentBody{
+    display: flex;
+    justify-content: center;
+}
+
+.ContentBody div{
+    width: 74%;
+    margin-top: 20px;
+}
+
+.ContentBody div p{
+    font-size: 20px;
+}

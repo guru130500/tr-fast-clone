@@ -1,0 +1,12 @@
+.Knowledge-Accordion-Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f0f0f0;
+    padding-top: 7%;
+}
+
+.Knowledge-Accordion-Div h1{
+    color: #002d74;
+    margin: 0px 0px 50px 0px;
+}

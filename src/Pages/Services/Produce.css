@@ -1,0 +1,68 @@
+.ProduceBody{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px  20px 0px;
+    /* border: 1px solid red; */
+}
+
+.ProduceImg{
+    width: 50%;
+    height: 100%;
+}
+
+.ProduceImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.ProduceText{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #38a2dc;
+    color: white;
+}
+
+.ProduceTextContent{
+    width: 50%;
+    height: 70%;
+    /* border: 1px solid red; */
+}
+
+.ProduceTextContent button{
+    background: transparent;
+    color: white;
+    height: 50px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.ProduceTextContent button:hover{
+    background: white;
+    color: black;
+}
+
+@media (min-width:250px) and (max-width:768px){
+    .ProduceBody{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .ProduceImg{
+        width: 100%;
+    }
+
+    .ProduceText{
+        width: 100%;
+        height: auto;
+    }
+
+    .ProduceTextContent{
+        width: 95%;
+        margin: 10px 0px 10px 0px;
+    }
+}
