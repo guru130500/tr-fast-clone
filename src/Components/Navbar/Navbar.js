@@ -2,6 +2,10 @@ import React from "react";
 import "./Navbar.css";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import SearchIcon from "@mui/icons-material/Search";
+import { Navigate, useNavigate } from "react-router-dom";
+const Navbar = () => {
+  const navigate=useNavigate()
+
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Accordion from '@mui/material/Accordion';
@@ -76,8 +80,8 @@ const Navbar = () => {
               </div>
               <div className="menu-list">
                 <div className="menuContainer">
-                  <div className="company">
-                    Company
+                  <div className="company" onClick={()=>navigate('/company')}>
+                     Company
                     <span>
                       {" "}
                       <ArrowDropDownIcon className="companyDropdown" />
@@ -150,7 +154,7 @@ const Navbar = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="investors">
+                  <div className="investors" onClick={()=>navigate('/investor')}>
                     Investors
                     <span>
                       {" "}

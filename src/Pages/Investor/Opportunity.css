@@ -1,0 +1,106 @@
+
+.Opportunity-main-div{
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    gap: 10px;
+}
+.Opportunity-main-div div{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    height: 280px;
+    width: 370px;
+    /* border: 1px solid red; */
+}
+.Opportunity-main-div div:nth-child(1){
+    background-color: #0184b0
+}
+.Opportunity-main-div div:nth-child(2){
+    background-color:  rgb(111, 36, 111)
+}
+.Opportunity-main-div div:nth-child(3){
+    background-color:#339933;
+    ;
+}
+.Opportunity-main-div div:nth-child(4)
+{
+    background-color: #686864;
+}
+.Opportunity-main-div div:nth-child(5){
+    background-color:#38a2dc;
+}
+.Opportunity-main-div div:nth-child(6){
+    background-color:#f49303;
+}
+.Opportunity-main-div div:nth-child(7){
+    background-color: #2eb8b8;
+}
+.Opportunity-main-div div:nth-child(8){
+    background-color: #004080;
+}
+
+.Opportunity-main-div div h4{
+    border-bottom: 1px solid white;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.Opportunity-main-div div p{
+    width: 80%;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+.Opportunity-main-div div button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    height: 43px;
+    width: 130px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.Opportunity-main-div div button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+.Opportunity-main-div div article{
+    height: 48px;
+    width: 45px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   top: 0;
+   right: 0;
+    
+}
+@media screen and (max-width:780px) {
+    .Opportunity-main-div{
+      flex-direction: column;
+    }
+    .Opportunity-main-div div{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+}
