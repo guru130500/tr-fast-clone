@@ -2,7 +2,7 @@
     height: 540px;
     width: 100%;
     /* border: 1px solid red; */
-    background-image: url('https://scanfast.dk/sites/default/files/styles/lg/public/CompanyPhoto_4.webp?itok=Zdc_FLwM');
+    /* background-image: url('https://scanfast.dk/sites/default/files/styles/lg/public/CompanyPhoto_4.webp?itok=Zdc_FLwM'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,11 +10,15 @@
     justify-content: flex-end;
     /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
     z-index: -7 !important; 
+    position: relative;
+    margin-top: 20px;
 }
 
 .Portfolio-inner-div{
     height: 100%;
     width: 50%;
+    position: absolute;
+    right: 0;
     background-color: rgba(22, 104, 218, 0.764);
     /* clip-path: polygon(0, 0, 100% 0%, 100% 100%, 0% 70%); */
     clip-path: polygon(0 0, 360% 0, 180% 200%, 0 75%);
@@ -65,12 +69,12 @@ width: 60%;
 }
 
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:768px) {
     .portfolio-main-div{
        flex-direction: column;
        background-size:100% 100%;
-        height: 600px;
-        padding: 20px;
+         height: auto;
+        /* padding: 20px; */
         /* margin-left: 5px; */
     }
     .Portfolio-inner-div{
@@ -82,11 +86,33 @@ width: 60%;
         justify-content: center;
         align-items: center;
        padding-left: 5px;
-       clip-path: none
-    
+       clip-path: none;
+       position: relative;
     }
     .portfolio-content-div{
     
         width: 100%;
     }
+    .portfolio-content-div h5{
+        width: 90%;
+      margin-top: 30px;
+       margin-left: 2%;
+       
+    }
+    .portfolio-content-div h2{
+        margin-top: 18px;
+        margin-left: 2%;
+    }
+    .portfolio-content-div p{
+        margin-top: 18px;
+        margin-left: 2%;
+        width: 90%;
+    }
+    .portfolio-content-div button{
+      
+        margin-left: 2%;
+        margin-bottom: 30px;
+
+    }
+    
 }

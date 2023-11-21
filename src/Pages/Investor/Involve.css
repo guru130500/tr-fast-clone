@@ -1,0 +1,131 @@
+.Involve-main-div{
+    height: 580px;
+      width: 100%;
+      /* border: 1px solid red; */
+      display: flex;
+      margin-top: 20px;
+  }
+  .Involve-main-div .Involve-left-div{
+      width: 50%;
+      height: 100%;
+      background-color: #38a2dc;;
+  }
+  
+  .Involve-right-div h3{
+       width: 50%;
+      color:white;
+      font-weight: 500;
+      font-size: 16.5px;
+      margin-top: 12%;
+      margin-left: 19%;
+  
+      /* border-bottom: 1px solid white; */
+      border-bottom: 1px solid white;
+      padding-bottom: 10px;
+  
+  }
+.Involve-right-div h2{
+      width: 90%;
+      margin-top: 10px;
+      color: white;
+      font-size: 35px;
+      font-weight: 400;
+      margin-left: 19%;
+      margin-top: 20px;
+      margin-bottom: 0%;
+  
+   
+    
+      
+  }
+.Involve-right-div p{
+      width: 60%;
+  
+      color: white;
+      font-size: 18px;
+      font-weight: 400;
+      margin-left: 19%;
+      margin-top: 20px;
+      margin-bottom: 0px;
+    
+      
+  }
+
+.Involve-right-div button{
+      height: 43px;
+      padding: 10px;
+      margin-left: 19%;
+      margin-top: 15px;
+      border-radius: 5px;
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+      font-size: 17px;
+      
+      
+  }
+ I .Involve-right-div button:hover{
+     background-color: white;
+      color: black
+    
+      
+  }
+  .Involve-main-div .Involve-right-div{
+      width: 50%;
+      height: 100%;
+      /* border: 1px solid green; */
+  }
+    .Involve-left-div img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  .Involve-right-div{
+    background-color:  #4fa7a7;;
+  }
+  
+  @media (min-width:250px) and (max-width:768px){
+      .Involve-main-div{
+            height: auto;
+            width: 100%;
+            /* border: 1px solid red; */
+            flex-direction: column;
+          
+  
+        }
+        .Involve-main-div .Involve-right-div{
+          width: 100%;
+          height: 100%;
+          border: 1px solid green;
+      }
+      .Involve-main-div .Involve-left-div{
+          width: 100%;
+      height: 100%;
+          background-color: #38a2dc;;
+      }
+      .Involve-right-div h3{
+       margin-top:7%;
+       margin-left: 4%;
+     }
+     .Involve-right-div h2{
+      margin-left: 4%;
+     }
+     .Involve-right-div p{
+      width: 80%;
+      margin-left: 4%;
+      font-size: 15px;
+     }
+     .Involve-right-div button{
+      display: block;
+      margin-left: 4%;
+      margin-bottom: 40px;
+     
+      
+  }
+  .Involve-right-div img{
+      margin-left: 4%;
+      
+     }
+     
+     
+  }

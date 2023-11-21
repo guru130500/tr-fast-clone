@@ -1,0 +1,132 @@
+.market-main-div{
+  height: 550px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 20px;
+}
+.market-main-div .market-left-div{
+    width: 50%;
+    height: 100%;
+    background-color: #38a2dc;;
+}
+
+.market-left-div h3{
+     width: 50%;
+    color:white;
+    font-weight: 500;
+    font-size: 16.5px;
+    margin-top: 12%;
+    margin-left: 25%;
+
+    /* border-bottom: 1px solid white; */
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+
+}
+.market-left-div h2{
+    width: 90%;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 25%;
+    margin-top: 25px;
+
+ 
+  
+    
+}
+.market-left-div p{
+    width: 60%;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 25%;
+    margin-top: 25px;
+    margin-bottom: 0px;
+  
+    
+}
+.market-left-div img{
+  
+    margin-left: 25%;
+    margin-top: 15px;
+  
+    
+}
+.market-left-div button{
+    height: 43px;
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 17px;
+    
+    
+}
+.market-left-div button:hover{
+   background-color: white;
+    color: black
+  
+    
+}
+.market-main-div .market-right-div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.market-right-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width:250px) and (max-width:768px){
+    .market-main-div{
+          height: fit-content;
+          width: 100%;
+          /* border: 1px solid red; */
+          flex-direction: column-reverse;
+
+      }
+      .market-main-div .market-right-div{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid green; */
+    }
+    .market-main-div .market-left-div{
+        width: 100%;
+    height: 100%;
+        background-color: #38a2dc;;
+    }
+    .market-left-div h3{
+     margin-top:7%;
+     margin-left: 4%;
+   }
+   .market-left-div h2{
+    margin-left: 4%;
+   }
+   .market-left-div p{
+    width: 80%;
+    margin-left: 4%;
+    font-size: 15px;
+   }
+   .market-left-div button{
+    display: block;
+    margin-left: 4%;
+    margin-bottom: 40px;
+   
+    
+}
+   .market-left-div img{
+    margin-left: 4%;
+    
+   }
+   
+   
+}

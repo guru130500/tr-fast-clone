@@ -6,8 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Industries from './Pages/Industries/Industries';
 import Services from './Pages/Services/Services';
 import Knowledge from './Pages/Knowledge/Knowledge';
+import Products from './Pages/Products/Products';
 import Sustainability from './Pages/Sustainability/Sustainability';
-
 
 const App = () => {
   return (
@@ -17,12 +17,12 @@ const App = () => {
           <Route path='/' element={<Landing/>}/>
           <Route path='/company' element={<Company/>}/>
           <Route path='/investor' element={<Investor/>}/>
-          <Route path='/products' element={<Landing/>}/>
           <Route path='/knowledge-base' element={<Knowledge/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/industries' element={<Industries/>}/>
           <Route path='/sustainability' element={<Sustainability/>}/>
           <Route path='/contact' element={<Landing/>}/>
+          <Route path='/products' element={<Products/>}/>
         </Routes>
       </BrowserRouter>
 

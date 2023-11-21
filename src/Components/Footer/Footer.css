@@ -259,12 +259,17 @@ color: white;
   .next-button {
     right: 0;
   }
+  .footer-list p:hover{
+    text-decoration: underline !important;
+    cursor: pointer;
+   }
   
 
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:768px) {
 
     .Footer-main-div{
+      flex-direction: column;
         height:auto;
         padding: 30px
     }
@@ -293,7 +298,7 @@ color: white;
    .footer-list p{
  
    width: 120px !important;
-    height:5px ;
+    height:auto;
     /* border: 1px solid red; */
     list-style: none;
     display: flex;
@@ -304,14 +309,16 @@ color: white;
     font-size: 12px;
     gap: 10px !important;
     margin: 10px;
+    
    
  
 
 }
+
    .footer-list{
     /* border: 1px solid red; */
     width:95%;
-   height: 240px;
+   height: auto;
     display: flex;
 
     justify-content: center;
@@ -326,6 +333,46 @@ color: white;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.footer-left-div{
+  height: auto;
+  width: 100%;
 }
+.footer-right-div{
+  height: auto;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.footer-list p:hover{
+  text-decoration: underline !important;
+  cursor: pointer;
+  transition: 0.3s ease;
+ }
+
+}
+@media (min-width:768px) and (max-width:1000px){
+  .Footer-main-div{
+  
+      padding: 30px
+  }
+  .footer-left-div{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid yellow; */
+  }
+  .footer-right-div{
+    height: auto;
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+  .footer-right-div .footer-partner-list{
+    display: none;
+   }
+   .slider-container{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+    
 
 

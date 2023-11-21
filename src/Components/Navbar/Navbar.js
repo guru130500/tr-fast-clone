@@ -248,7 +248,7 @@ const Navbar = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="products">
+                  <div className="products"  onClick={()=>navigate('/products')} >
                     Products
                     <span>
                       {" "}

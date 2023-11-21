@@ -5,6 +5,8 @@ import Our from './Our'
 import Opportunity from './Opportunity'
 import Tool from './Tool'
 import Footer from '../../Components/Footer/Footer'
+import Market from './Market'
+import Involve from './Involve'
 const Investor = () => {
   return (
     <div>
@@ -25,6 +27,8 @@ const Investor = () => {
         </div>
         <Our/>
         <Opportunity/>
+        <Market/>
+        <Involve/>
         <Tool/>
         <Footer/>
     </div>

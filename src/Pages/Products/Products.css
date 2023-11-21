@@ -1,0 +1,222 @@
+.Products-main-div{
+    height: auto;
+    width: 100%;
+    /* border:1px solid red; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.Products-main-div .Products-inner-div{
+    height: 420px;
+    width: 21.5%;
+    /* border: 1px solid green; */
+    margin: 1%;
+
+}
+.Products-main-div .Products-inner-div img{
+    width: 100%;
+    height: 45%;
+
+}
+.Products-main-div .Products-inner-div h3{
+    height: auto;
+    width: 60%;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #008ae6;
+    font-weight: 600;
+    
+}
+
+.Products-main-div .Products-inner-div p{
+    width: fit-content;
+    font-size: 16px;
+    margin-bottom: 2px;
+    text-decoration: underline;
+}
+
+.Products-main-div .Products-inner-div p:hover{
+    cursor: pointer;
+
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.Product-nav{
+    height: 100px;
+    width: 100%;
+    background-color: #edebeb;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1.5%;
+
+
+}
+.Product-nav .Product-nav-left{
+    height: 50%;
+    width: 28.5%;
+   background-color: #003366;
+   border-radius: 4px;
+   display: flex;
+}
+.Product-nav .Product-nav-left input{
+    height: 100%;
+    width: 84%;
+    background-color:  #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+.Product-nav .Product-nav-left input:focus{
+    outline: none;
+    background-color:rgb(21, 26, 69); ;
+
+}
+
+.Product-nav .Product-nav-left input:hover{
+    outline: none;
+    background-color:rgb(21, 26, 69); ;
+}
+.Product-nav .Product-nav-left input::placeholder{
+   color: white;
+   font-weight: 600;
+}
+.Product-nav .Product-nav-left div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100%;
+     width: 16%;
+     background-color: #003366;
+     color: white;
+     border-radius: 4px;
+}
+.Product-nav .Product-nav-left div:hover{
+    transition: 0.3s ease;
+    background-color:rgb(21, 26, 69); ;
+    cursor: pointer;
+}
+.Product-nav .Product-nav-right{
+    height: 50%;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid rgb(76, 0, 255); */
+}
+.Product-nav .Product-nav-right div{
+    height: 100%;
+    width: 22.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+.Product-nav .Product-nav-right div span{
+    font-size: 18px;
+    color: rgb(5, 184, 201);
+    font-weight: 500;
+}
+.Product-nav .Product-nav-right div span:nth-child(1):hover{
+    font-size: 18px;
+    color: rgb(1, 97, 105);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.product-div2{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+}
+.product-div2 p{
+    margin-top: 0.4%;
+    margin-left: 4%;
+}
+.product-div2 p span:nth-child(1){
+    color: #02b8f5;
+}
+.product-div2 p span:nth-child(2){
+    color: #025979;
+}
+.product-div2 p span:nth-child(1):hover{
+    color: #013d52;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+@media (min-width:250px) and (max-width:768px){
+    .Products-main-div{
+        flex-direction: column;
+    }
+    .Products-main-div .Products-inner-div{
+       width: 95%;
+       height: auto;
+    
+       margin-bottom: 30px;
+    }
+
+    .Product-nav{
+       height: auto;
+        width: 100%;
+   
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    
+    
+    }
+    .Product-nav .Product-nav-left{
+        height:55px;
+        width: 100%;
+       background-color: #003366;
+       border-radius: 4px;
+       display: flex;
+    }
+    .Product-nav .Product-nav-right{
+         height: auto;
+        width: 100%;
+       
+        flex-direction: column;
+     
+        /* border: 1px solid rgb(76, 0, 255); */
+    }
+    .Product-nav .Product-nav-right div{
+       
+        width: 100%;
+        margin-bottom: 20px;
+        padding-top: 10px;
+     
+    }
+   
+}
+@media (min-width:768px) and (max-width:1000px){
+    .Products-main-div .Products-inner-div h3{
+        font-size: 12.5px;
+        line-break: 5px;
+    }
+    
+.Products-main-div .Products-inner-div p{
+    font-size: 12px;
+    margin-bottom: none;
+    text-decoration: underline;
+}
+}
+@media (min-width:1000px) and (max-width:1300px){
+    .Products-main-div .Products-inner-div h3{
+        font-size: 15px;
+    }
+    .Products-main-div .Products-inner-div p{
+        font-size: 12px;
+        margin-bottom: none;
+        text-decoration: underline;
+    }
+
+}
