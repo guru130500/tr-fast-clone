@@ -713,8 +713,10 @@ const Navbar = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="sustainability">
-                  sustainability
+                  <div className="sustainability" 
+                  onClick={()=> navigate('/sustainability')}
+                  >
+                  Sustainability
                     <span>
                       {" "}
                       <ArrowDropDownIcon className="sustainabilityDropdown" />
