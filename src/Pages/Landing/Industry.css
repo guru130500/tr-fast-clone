@@ -349,12 +349,14 @@
 @media screen and (max-width:780px) {
     .Industry-divs div{
         height: 320px;
-        width: 400px;
+        width: 100% !important;
         border: 1px solid white;
     }
     .Industry-divs{
+        width: 100%;
         padding: 15px;
         margin-left: 5px;
+        /* border: 1px solid red; */
     }
     .Industry-data{
         width: 100%;
@@ -367,11 +369,31 @@
         padding: 15px;
     }
     .Industry-data p{
-        width: 100%
+        margin-top: 20px !important;
+        width: 90% !important;
     }
     .Industry-data h4{
         width: 100%;
     }
+    .diagonal-parent1,.diagonal-parent2,.diagonal-parent3,.diagonal-parent4,.diagonal-parent5,.diagonal-parent6{
+        width: 100% !important;
+   
+      
+
+    }
     
     
 }
+@media (min-width:768px) and (max-width:1000px){
+    .diagonal-parent1,.diagonal-parent2,.diagonal-parent3,.diagonal-parent4,.diagonal-parent5,.diagonal-parent6{
+        width: 100% !important;
+       
+
+    }
+    .Industry-divs div{
+        height: 320px;
+        width: 100% !important;
+        border: 1px solid white;
+    }
+}
+

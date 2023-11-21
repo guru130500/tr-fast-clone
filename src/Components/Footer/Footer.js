@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Footer.css";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import { useNavigate } from "react-router-dom";
 const Footer = () => {
   const [data, setData] = useState([
     "https://trfastenings.blob.core.windows.net/sitecontent/67c5f22b22e0497da5198214c57270ab.png",
@@ -17,6 +18,7 @@ const Footer = () => {
     "https://trfastenings.blob.core.windows.net/sitecontent/35a1a5da4255410ab0883de9846b21d3.png",
     "https://trfastenings.blob.core.windows.net/sitecontent/35a1a5da4255410ab0883de9846b21d3.png",
   ]);
+  const navigate=useNavigate()
   const [currentSlide, setCurrentSlide] = useState(0);
   const slidesToShow = 3; // Number of slides to show at once
   const slides = [
@@ -117,15 +119,15 @@ const Footer = () => {
           </div>
 
           <div className="footer-list">
-            <p>Company</p>
-            <p> Products</p>
-            <p>Contact</p>
-            <p>Services</p>
+            <p onClick={()=>navigate('/company')}>Company</p>
+            <p  onClick={()=>navigate('/products')}> Products</p>
+            <p  onClick={()=>navigate('/contact')}>Contact</p>
+            <p  onClick={()=>navigate('/services')}>Services</p>
 
-            <p>Investors</p>
-            <p>Knowledge Base</p>
-            <p>Sustainabipty</p>
-            <p>Industries</p>
+            <p  onClick={()=>navigate('/investor')}>Investors</p>
+            <p  onClick={()=>navigate('/knowledge-base')}>Knowledge Base</p>
+            <p  onClick={()=>navigate('/sustainability')}>Sustainability</p>
+            <p  onClick={()=>navigate('/industries')}>Industries</p>
             <p> Careers </p>
 
             <p>Register/Login</p>

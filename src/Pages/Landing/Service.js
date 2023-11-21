@@ -4,6 +4,8 @@ const Service = () => {
   return (
     <div className="service-parent">
       <div className="Service-main-div">
+
+        <img src="https://3dprintingindustry.com/wp-content/uploads/2018/12/Researcher-in-the-Nottingham-Advanced-Robotics-Laboratory.jpg" height='100%' width='100%'></img>
         <div className="Service-inner-div">
           <div>
             <h4>SERVICES</h4>
