@@ -447,3 +447,19 @@
     } */
     
 }
+
+.profile-dropdown1{
+    display: none !important;
+    /* visibility: hidden; */
+    width: 170px ;
+    display: flex ;
+    flex-direction: column;
+    position: absolute ;
+    right:3%;
+    left: auto;
+    background-color: #f0f0f0;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0.5rem;
+    font-weight: 500;
+}

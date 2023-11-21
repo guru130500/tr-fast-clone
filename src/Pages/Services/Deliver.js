@@ -19,7 +19,7 @@ const Deliver = () => {
             </div>
         </div>
         <div className="ProduceImg">
-            <img src="https://trfastenings.blob.core.windows.net/sitecontent/dc2555c46d1a4c2d963ee66bb51f7156.jpg" />
+            <img src="https://trfastenings.blob.core.windows.net/sitecontent/dc2555c46d1a4c2d963ee66bb51f7156.jpg" alt=""/>
         </div>
     </div>
   );
