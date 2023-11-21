@@ -49,7 +49,7 @@
 @media (min-width:250px) and (max-width:768px){
     .ProduceBody{
         flex-direction: column;
-        height: auto;
+        height: auto !important;
     }
 
     .ProduceImg{

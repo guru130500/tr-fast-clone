@@ -117,11 +117,6 @@
     /* border: 1px solid red; */
 }
 
-/* .menu-list div:hover span{
-    transition: transform ease-in-out .3s;
-    transform: rotateZ(180deg);
-} */
-
 .search-icon{
     width: 50px;
     height: 35px;
@@ -143,12 +138,12 @@
  .nav-dropdown-menu-body-contact
  {
     width: 90%;
-    position: absolute;
     padding: 60px 0 67px 0;
     top: -20px;
     transition: transform ease-in-out .5s;
     transform: translateY(-100%);
     z-index: -5;
+    position: absolute;
     left: 5%;
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
     background: white;
