@@ -11,6 +11,8 @@ import Register from './Pages/Profile/Register';
 import ForgotPass from './Pages/Profile/ForgotPass';
 import Contact from './Pages/Contact/Contact';
 
+import Products from './Pages/Products/Products';
+import Sustainability from './Pages/Sustainability/Sustainability';
 
 const App = () => {
   return (
@@ -20,15 +22,15 @@ const App = () => {
           <Route path='/' element={<Landing/>}/>
           <Route path='/company' element={<Company/>}/>
           <Route path='/investor' element={<Investor/>}/>
-          <Route path='/products' element={<Landing/>}/>
           <Route path='/knowledge-base' element={<Knowledge/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/industries' element={<Industries/>}/>
-          <Route path='/sustainability' element={<Landing/>}/>
           <Route path='/sign-in' element={<SignIn/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/forgot-password' element={<ForgotPass/>}/>
-        <Route path='/contact' element={<Contact/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/sustainability' element={<Sustainability/>}/>
+          <Route path='/products' element={<Products/>}/>
         </Routes>
       </BrowserRouter>
 

@@ -4,7 +4,8 @@ const Investor = () => {
   return (
     <div>
         <div className='Investor-main-div'>
-               <div className='investor-left-div'><img src='https://trfastenings.blob.core.windows.net/sitecontent/4a4dd99e9a5f40f08d8dac7ba02a21a2.png' alt='' height='100%' width='100%'></img></div>
+               <div className='investor-left-div'>
+               <img src='https://trfastenings.blob.core.windows.net/sitecontent/4a4dd99e9a5f40f08d8dac7ba02a21a2.png' alt='' height='100%' width='100%'></img></div>
                <div className='investor-right-div'>
                  <div>
                     <h4>INVESTOR RELATIONS</h4>

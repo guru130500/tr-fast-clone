@@ -10,9 +10,19 @@
     /* border: 1px solid red !important; */
 }
 
-/* .Knowledge-Accordion-card:hover{
-    border: 1px solid red !important;
-} */
+.AccordionSummary:focus{
+    background:#38a2dc !important;
+    /* border: 1px solid red !important; */
+    border-radius: 5px !important;
+}
+
+.AccordionSummary:focus h5{
+    color: white !important;
+}
+
+.AccordionSummary:focus .addCircleOutlineIcon{
+    color: white !important;
+}
 
 .Knowledge-Accordion h5{
     color: #38a2dc !important;
@@ -25,6 +35,34 @@
     font-weight: 1 !important;
 }
 
-@media (min-width:250px) and (max-width:991px){
+.AccordionDetails{
+    text-align: left;
+    padding-left: 40px;
+    /* border: 1px solid red; */
+}
 
+.AccordionDetails p{
+    color: #38a2dc;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.AccordionDetails p:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.AccordionDetails p span{
+    color: black;
+}
+
+.AccordionDetails h6{
+    font-size: 22px;
+}
+
+@media screen and (max-width:768px) {
+    .Knowledge-Accordion{
+        width: 95%;
+    }
+    
 }

@@ -105,10 +105,27 @@
     transition:  0.3s ease;
 }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:768px){
     .latest-div1 p{
-        width: 80%;
+        width: 100%;
         
+    }
+    .latest-div2{
+        flex-direction: column;
+    
+
+    }
+    .latest-div2 div{
+        width: 100%;
+    }
+    .latest-div1 h4{
+        width: 100%;
+        font-size: 27px;
+        font-weight: 500;
+      
+    }
+    .latest-main-div{
+       margin-top: 30px;
     }
     
 }

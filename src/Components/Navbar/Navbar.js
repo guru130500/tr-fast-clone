@@ -8,7 +8,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
 
@@ -262,7 +262,7 @@ const Navbar = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="products">
+                  <div className="products"  onClick={()=>navigate('/products')} >
                     Products
                     <span>
                       {" "}
@@ -419,8 +419,8 @@ const Navbar = () => {
                             </p>
                           </div>{" "}
                         </div>
-                        <div class="col-md-3">
-                          <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                        <div className="col-md-3">
+                          <h5 className="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
                             Tolerances
                           </h5>
                           <div
@@ -727,8 +727,10 @@ const Navbar = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="sustainability">
-                  sustainability
+                  <div className="sustainability" 
+                  onClick={()=> navigate('/sustainability')}
+                  >
+                  Sustainability
                     <span>
                       {" "}
                       <ArrowDropDownIcon className="sustainabilityDropdown" />
@@ -819,7 +821,7 @@ const Navbar = () => {
               onClick={()=> openToggle()}
               // style={{border:'1px solid red'}}
               >
-              =
+              <MenuIcon/>
               </div>
               <div 
               className="closeToggle"
@@ -834,19 +836,308 @@ const Navbar = () => {
         </div>
       </nav>
       <div className="accordion">
+          <div className="accorsion-upper">
+                    <span style={{ marginLeft: "5px" }}>
+                      <img src="https://trfastenings.blob.core.windows.net/sitecontent/45bb321abc456e6aa8dc97921b992345.png" />
+                    </span>
+                    <span style={{ marginRight: "0px" }}>
+                      <img src="https://trfastenings.blob.core.windows.net/sitecontent/d0f6693fb5594a969df92e34df6244c9.svg" />
+                    </span>
+                    <div className="search-icon">
+                      <SearchIcon />
+                    </div>
+                    <span style={{color:'#1a7abf'}}>Bookmark this page</span>
+          </div>
           <Accordion className="accordionBody">
             <AccordionSummary
               expandIcon={<ArrowDropDownIcon className = "expand" />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              
+              className="AccordionSummary1"
             >
-              <Typography>Company</Typography>
+              <Typography onClick={()=>navigate('./company')}>
+              Company
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                <p>
+                  Newsroom & media
+                </p>
+                <p>
+                  Leadership
+                </p>
+                <p>
+                  Documentation and policies
+                </p>
+                <p>
+                  Acquisitions
+                </p>
+                <p>
+                  KPIs
+                </p>
+                <p>
+                  Business model
+                </p>
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="accordionBody">
+            <AccordionSummary
+              expandIcon={<ArrowDropDownIcon className = "expand" />}
+              aria-controls="panel2a-content"
+              id="panel2a-header"
+              className="AccordionSummary1"
+            >
+              <Typography
+              onClick={()=>navigate('./investor')}
+              >
+              Investors
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                <p>
+                  What set us apart
+                </p>
+                <p>
+                  Shareholder information
+                </p>
+                <p>
+                  Governance
+                </p>
+                <p>
+                  Financial information
+                </p>
+                <p>
+                  RNS
+                </p>
+                <p>
+                  Enquiry research
+                </p>
+                <p>
+                  Share data
+                </p>
+                <p>
+                  Reports and presentations
+                </p>
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="accordionBody">
+            <AccordionSummary
+              expandIcon={<ArrowDropDownIcon className = "expand" />}
+              aria-controls="panel2a-content"
+              id="panel2a-header"
+              className="AccordionSummary1"
+            >
+              <Typography onClick={()=>navigate('./products')}>Products</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                <div class="Accordion-products-row">
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/3e246016ad7f4ec190c3eecc07e2ed18.jpg"
+                      alt="Collection of Screws and Bolts"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Screws and Bolts
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/3644db77562842bfa1a5b8230b62512a.jpg"
+                      alt="Collection of Nuts"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Nuts
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/b1524fa1188e4b6ebea1360bdf36f928.jpg"
+                      alt="Collection of Washers, Circlips, Rings, Seals, O-Rings"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Washers, Circlips, Rings, Seals, O-Rings
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/a6398c530f1243d4886d07258199acbb.jpg"
+                      alt="Collection of Fasteners for Sheet Metal"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Fasteners for Sheet Metal
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/90ff2b0c93bf407c8327ba47626e0c75.jpg"
+                      alt="Collection of Fasteners for Plastic"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Fasteners for Plastic
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/87fdbdb3cb8944c98d89c37e24c77afc.jpg"
+                      alt="Collection of Enclosure Hardware"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Enclosure Hardware
+                    </h5>
+                  </div>
+                </div>
+                <div class="Accordion-products-row">
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/00d6dac4e8c6439cba18f9ca29434ab7.jpg"
+                      alt="Collection of Plastic Hardware"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Plastic Hardware
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/977cce438bc548e6a6f3de9443e4844b.jpg"
+                      alt="Collection of Cable Glands"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Cable Glands
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/12aa0f5128714f97bbedd9ab3fd68775.jpg"
+                      alt="Collection of Security Fasteners"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Security Fasteners
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/d20ad9b1a2ba4532a3730fced06f576d.jpg"
+                      alt="Collection of Spacers and Pillars"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Spacers and Pillars
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/ad50d358e028414e83b52166a3c1ae72.jpg"
+                      alt="Collection of Tooling and Driver Bits"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Tooling and Driver Bits
+                    </h5>
+                  </div>
+                  <div class="Accordion-col-6 col-md-2">
+                    <img
+                      class="nav-dropdown-menu__image"
+                      src="https://trfastenings.blob.core.windows.net/menu/b2fdcf05fb244729813093f9734bce43.jpg"
+                      alt="Collection of Other Hardware"
+                    />
+                    <h5 class="nav-dropdown-menu__heading nav-dropdown-menu__heading--has-submenu">
+                      Other Hardware
+                    </h5>
+                  </div>
+                </div>
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="accordionBody">
+            <AccordionSummary
+              expandIcon={<ArrowDropDownIcon className = "expand" />}
+              aria-controls="panel2a-content"
+              id="panel2a-header"
+              className="AccordionSummary1"
+            >
+              <Typography onClick={()=>navigate('./knowledge-base')}>Knowledge Base</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                <p>
+                  Engineering Data
+                </p>
+                <p>
+                  Tolerances
+                </p>
+                <p>
+                  Materials
+                </p>
+                <p>
+                  Coatings
+                </p>
+                <p>
+                  Thread geometries
+                </p>
+                <p>
+                  Metric screws
+                </p>
+                <p>
+                  Threadforming Screws for Metal
+                </p>
+                <p>
+                  Fasteners for Plastic
+                </p>
+                <p>
+                  Metric Nuts and Washers
+                </p>
+                <p>
+                  Self Clinch Fasteners
+                </p>
+                <p>
+                  Rivet Bushes
+                </p>
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="accordionBody">
+            <AccordionSummary
+              expandIcon={<ArrowDropDownIcon className = "expand" />}
+              aria-controls="panel2a-content"
+              id="panel2a-header"
+              className="AccordionSummary1"
+            >
+              <Typography onClick={()=>navigate('./services')}>Services</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                <p>
+                  Manufacturing
+                </p>
+                <p>
+                  Logistics
+                </p>
+                <p>
+                  Sourcing
+                </p>
+                <p>
+                  Technical support services
+                </p>
+                <p>
+                  Quality
+                </p>
+                <p>
+                  Trade bodies and associations
+                </p>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -856,12 +1147,28 @@ const Navbar = () => {
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              <Typography>Investors</Typography>
+              <Typography onClick={()=>navigate('./industries')}>Industries</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                <p>
+                  Light vehicle
+                </p>
+                <p>
+                  Heavy vehicle
+                </p>
+                <p>
+                  Health & home
+                </p>
+                <p>
+                  Energy, tech & infrastructure 
+                </p>
+                <p>
+                  General industrial
+                </p>
+                <p>
+                  Distributors
+                </p>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -870,73 +1177,30 @@ const Navbar = () => {
               expandIcon={<ArrowDropDownIcon className = "expand" />}
               aria-controls="panel2a-content"
               id="panel2a-header"
+              className="AccordionSummary1"
             >
-              <Typography>Products</Typography>
+              <Typography onClick={()=>navigate('./sustainability')}>Sustainability</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion className="accordionBody">
-            <AccordionSummary
-              expandIcon={<ArrowDropDownIcon className = "expand" />}
-              aria-controls="panel2a-content"
-              id="panel2a-header"
-            >
-              <Typography>Knowledge Base</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion className="accordionBody">
-            <AccordionSummary
-              expandIcon={<ArrowDropDownIcon className = "expand" />}
-              aria-controls="panel2a-content"
-              id="panel2a-header"
-            >
-              <Typography>Services</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion className="accordionBody">
-            <AccordionSummary
-              expandIcon={<ArrowDropDownIcon className = "expand" />}
-              aria-controls="panel2a-content"
-              id="panel2a-header"
-            >
-              <Typography>Industries</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion className="accordionBody">
-            <AccordionSummary
-              expandIcon={<ArrowDropDownIcon className = "expand" />}
-              aria-controls="panel2a-content"
-              id="panel2a-header"
-            >
-              <Typography>Sustainability</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                <p>
+                  Sustainability governance
+                </p>
+                <p>
+                  Create socio-economic value
+                </p>
+                <p>
+                  Environment and climate change
+                </p>
+                <p>
+                  Sustainable supply chain
+                </p>
+                <p>
+                  Sustainable innovation
+                </p>
+                <p>
+                  Analysis tool - sustainability
+                </p>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -944,15 +1208,15 @@ const Navbar = () => {
             <AccordionSummary
               expandIcon={<ArrowDropDownIcon className = "expand" />}
               aria-controls="panel2a-content"
-              id="panel2a-header"
-             
+              id="panel2a-header"             
             >
               <Typography  onClick={()=>navigate("/contact")}>Contact</Typography>
+              className="AccordionSummary1"
+            >
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                <p>Contact</p>
               </Typography>
             </AccordionDetails>
           </Accordion>

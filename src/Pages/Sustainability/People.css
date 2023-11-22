@@ -1,0 +1,68 @@
+.PeopleBody{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.People-div-card{
+    height: 100%;
+    width: 24%;
+    padding: 2.5%;
+    background: #1a7abf;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.People-left-ImgDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.People-left-ImgDiv article{
+    height: 40px;
+    width: 40px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.People-left-ImgDiv img{
+    width: 100%;
+}
+
+.PeopleTextContent{
+    width: 100%;
+    color: white;
+}
+
+.PeopleTextContent button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+}
+
+
+
+
+@media (min-width:250px) and (max-width:768px){
+    .PeopleBody{
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .People-div-card{
+        width: 100%;
+    }
+}

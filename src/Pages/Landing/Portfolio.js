@@ -4,6 +4,7 @@ const Portfolio = () => {
   return (
     <div>
         <div className='portfolio-main-div'>
+          <img src='https://scanfast.dk/sites/default/files/styles/lg/public/CompanyPhoto_4.webp?itok=Zdc_FLwM' height='100%' width='100%'></img>
             <div className='Portfolio-inner-div'>
                 <div className='portfolio-content-div'>
                     <h5>PRODUCTS</h5>

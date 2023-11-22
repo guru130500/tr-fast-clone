@@ -95,7 +95,7 @@
    right: 0;
     
 }
-@media screen and (max-width:780px) {
+@media screen and (max-width:768px) {
     .Opportunity-main-div{
       flex-direction: column;
     }
