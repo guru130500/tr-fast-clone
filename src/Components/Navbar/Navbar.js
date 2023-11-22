@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import SearchIcon from "@mui/icons-material/Search";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import CloseIcon from '@mui/icons-material/Close';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -23,6 +23,8 @@ const Navbar = () => {
 
     const closeToggle = document.querySelector(".closeToggle");
     closeToggle.style.display = 'block';
+
+   
   }
 
   function closeToggle(){
@@ -35,6 +37,13 @@ const Navbar = () => {
     const closeToggle = document.querySelector(".closeToggle");
     closeToggle.style.display = 'none';
 
+  }
+
+  function openDropDown(){
+    const dropdown = document.querySelector(".profile-dropdown1")
+ 
+    dropdown.style.display='flex'
+    console.log(dropdown)
   }
 
   return (
@@ -64,8 +73,13 @@ const Navbar = () => {
                     <span style={{ marginLeft: "50px" }}>
                       <img src="https://trfastenings.blob.core.windows.net/sitecontent/45bb321abc456e6aa8dc97921b992345.png" />
                     </span>
-                    <span style={{ marginRight: "0px" }}>
-                      <img src="https://trfastenings.blob.core.windows.net/sitecontent/d0f6693fb5594a969df92e34df6244c9.svg" />
+                    <span style={{ marginRight: "0px" }} onClick={()=>navigate("/sign-in")}>
+                      <img  src="https://trfastenings.blob.core.windows.net/sitecontent/d0f6693fb5594a969df92e34df6244c9.svg" />
+                      <div className="profile-dropdown1" id="profile-dropdown1">
+                        <p>My account</p>
+                        <p>View enquires</p>
+                        <p>View collections</p>
+                      </div>
                     </span>
                   </div>
                 {/* </div> */}
@@ -1190,14 +1204,15 @@ const Navbar = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion className="accordionBody">
+          <Accordion className="accordionBody" >
             <AccordionSummary
               expandIcon={<ArrowDropDownIcon className = "expand" />}
               aria-controls="panel2a-content"
-              id="panel2a-header"
+              id="panel2a-header"             
+            >
+              <Typography  onClick={()=>navigate("/contact")}>Contact</Typography>
               className="AccordionSummary1"
             >
-              <Typography onClick={()=>navigate('./contact')}>Contact</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>

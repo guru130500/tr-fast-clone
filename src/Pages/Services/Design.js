@@ -4,7 +4,7 @@ const Design = () => {
   return (
     <div className="ProduceBody">
       <div className="ProduceImg">
-        <img src="https://trfastenings.blob.core.windows.net/sitecontent/1c059e7444104fab8ee4431f66621cbc.png" />
+        <img src="https://trfastenings.blob.core.windows.net/sitecontent/1c059e7444104fab8ee4431f66621cbc.png" alt=''/>
       </div>
       <div className="ProduceText"
         style={{background:'#1a7abf'}}
