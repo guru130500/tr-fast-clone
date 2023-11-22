@@ -794,7 +794,9 @@ const Navbar = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="contact">
+                  <div className="contact"
+                  onClick={()=>navigate('/contact')}
+                  >
                     Contact
                     <span>
                       {" "}
