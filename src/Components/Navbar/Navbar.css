@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 10;
+    z-index: 999;
     background: white;
     position: relative !important;
     /* border: 1px solid red; */
@@ -27,6 +27,8 @@
 .navbar-container{
     width: 97%;
     height: 100%;
+    z-index: 999;
+    background: white;
     /* border: 1px solid red; */
 }
 
@@ -35,6 +37,8 @@
     height: 100%;
     display: flex;
     justify-content: space-evenly;
+    z-index: 999;
+    background: white;
     /* border: 1px solid red; */
 }
 
@@ -281,7 +285,7 @@
     transform: translateY(48.5%);
     padding: 60px 0 67px 0;
     left: 5%;
-    z-index: 15 !important;
+    /* z-index: 15 !important; */
     /* background: white; */
 }
 
