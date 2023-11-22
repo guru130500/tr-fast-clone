@@ -1,4 +1,6 @@
 .knowledgeBody {
+    margin-bottom: 20px;
+    height: auto;
     /* border: 1px solid red; */
 }
 
@@ -9,30 +11,35 @@
     background-position: center;
     background-size: cover;
     display: flex;
+    align-items: last baseline;
+    position: relative;
     justify-content: flex-end;
     /* border: 1px solid red; */
 }
 
 .Knowledge-main-div .Knowledge-inner-div {
     height: 100%;
-    width: 90%;
-    position: relative;
-    /* background: linear-gradient(-29deg, rgba(243, 240, 240, 0.929) 50%, rgba(255, 254, 254, 0) 45%); */
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.733);
+    
+    clip-path: polygon(0 65%, 36% 23%, 100% 100%, 0% 100%);
+    /* background: linear-gradient(21deg, rgba(243, 240, 240, 0.929) 50%, rgba(255, 254, 254, 0) 45%); */
     background-size: 100% 100%;
     transition: background-position 0.3s ease;
     /* Add a smooth transition effect */
     z-index: 3;
-    /* border: 1px solid blue; */
+    /* border: 1px solid red; */
 }
 
 
 .Knowledge-main-div .Knowledge-inner-div div {
-    position: relative;
-    left: 0%;
-    top: 55%;
+    position: absolute;
+    left: 20%;
+    top: 50%;
     height: 35%;
     width: 25%;
-    background: black;
+    z-index: -1;
     color: white;
     /* border: 1px solid red; */
 }
@@ -59,7 +66,7 @@
 
 .Knowledge-inner-div div button {
     height: 50px;
-    width: 180px;
+    width: 190px;
     border-radius: 4px;
     border: none;
     background-color: rgb(7, 166, 194);
@@ -96,7 +103,7 @@
 
 .Knowledge-inner-div2 button {
     height: 43px;
-    width: 160px;
+    width: 200px;
     border-radius: 4px;
     border: none;
     background-color: rgb(7, 166, 194);
@@ -119,7 +126,9 @@
 }
 
 @media screen and (max-width:780px) {
-
+    .knowledgeBody {
+        margin-top: 20px !important;
+    }
     .Knowledge-main-div .Knowledge-inner-div {
         display: none;
     }
@@ -127,7 +136,7 @@
     .Knowledge-main-div {
         width: 100%;
         height: 200px;
-        margin: 15px;
+        /* margin: 15px 0px 10px 0px; */
     }
 
     .Knowledge-inner-div2 {
@@ -166,14 +175,12 @@
 
     .Knowledge-inner-div2 button {
         height: 43px;
-        width: 160px;
+        width: 200px;
         border-radius: 4px;
         border: none;
         background-color: rgb(7, 166, 194);
-        ;
         color: white;
         font-size: 17px;
-
     }
 
     .Knowledge-inner-div2 button:hover {
