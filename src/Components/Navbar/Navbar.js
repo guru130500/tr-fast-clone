@@ -1211,8 +1211,7 @@ const Navbar = () => {
               id="panel2a-header"             
             >
               <Typography  onClick={()=>navigate("/contact")}>Contact</Typography>
-              className="AccordionSummary1"
-            >
+            
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
