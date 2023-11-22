@@ -18,7 +18,7 @@ const Source = () => {
         </div>
       </div>
       <div className="ProduceImg">
-        <img src="https://trfastenings.blob.core.windows.net/sitecontent/99512eb3705b45659550fb120b7b3609.png" />
+        <img src="https://trfastenings.blob.core.windows.net/sitecontent/99512eb3705b45659550fb120b7b3609.png" alt='' />
       </div>
     </div>
   )

@@ -4,7 +4,7 @@ const Standards = () => {
   return (
     <div className="ProduceBody">
         <div className="ProduceImg">
-            <img src="https://trfastenings.blob.core.windows.net/sitecontent/325415283d6847108ad800bf23488a79.png" />
+            <img alt="" src="https://trfastenings.blob.core.windows.net/sitecontent/325415283d6847108ad800bf23488a79.png" />
         </div>
         <div className="ProduceText"
             style={{background:'#00a9b3'}}

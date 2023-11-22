@@ -18,7 +18,7 @@ const Collaboration = () => {
         </div>
       </div>
       <div className="ProduceImg">
-        <img src="https://trfastenings.blob.core.windows.net/sitecontent/a600779133204c8cac60c08955f70d65.jpg" />
+        <img src="https://trfastenings.blob.core.windows.net/sitecontent/a600779133204c8cac60c08955f70d65.jpg" alt=''/>
       </div>
 
     </div>
