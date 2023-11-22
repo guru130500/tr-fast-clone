@@ -71,10 +71,10 @@ const Navbar = () => {
                     <span style={{ color: "black" }}>|</span>
                     <sapn style={{ color: "#00a9b3" }}>CAREERS</sapn>
                     <span style={{ marginLeft: "50px" }}>
-                      <img src="https://trfastenings.blob.core.windows.net/sitecontent/45bb321abc456e6aa8dc97921b992345.png" />
+                      <img style={{cursor:'pointer'}} src="https://trfastenings.blob.core.windows.net/sitecontent/45bb321abc456e6aa8dc97921b992345.png" />
                     </span>
                     <span style={{ marginRight: "0px" }} onClick={()=>navigate("/sign-in")}>
-                      <img  src="https://trfastenings.blob.core.windows.net/sitecontent/d0f6693fb5594a969df92e34df6244c9.svg" />
+                      <img style={{cursor:'pointer'}} src="https://trfastenings.blob.core.windows.net/sitecontent/d0f6693fb5594a969df92e34df6244c9.svg" />
                       <div className="profile-dropdown1" id="profile-dropdown1">
                         <p>My account</p>
                         <p>View enquires</p>
