@@ -40,10 +40,10 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     /* border: 1px solid blue; */
-    gap: 10px;
+  
 }
 .latest-div2 div{
     display: flex;
@@ -52,7 +52,20 @@
     align-items: flex-start;
     height: 350px;
     width: 24.5%;
+    position: relative;
     /* border: 1px solid red; */
+}
+.latest-div2 div article{
+    height: 48px;
+    width: 45px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   top: 0;
+   right: 0;
 }
 .latest-div2 div:nth-child(1){
     background-color: #004080;
