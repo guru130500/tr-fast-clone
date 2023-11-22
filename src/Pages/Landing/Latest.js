@@ -16,24 +16,27 @@ const Latest = () => {
                     <h4>TR working with LEVC</h4>
                     <p>TR Fastenings provides time-critical solution to The London EV Company</p>
                     <button>Read article</button>
-                    
+                    <article><ArrowOutwardIcon style={{color:'#004080'}}/></article>
                 </div>
                 <div>
 
                     <h4>Advanced Engineering UK</h4>
                     <p>TR to exhibit at Advanced Engineering UK 1-2 Nov</p>
                     <button>Read article</button>
+                    <article><ArrowOutwardIcon style={{color:'#ffaa00'}}/></article>
                 </div>
                 <div>
                    <h4>TR Fastenings association with NEAA</h4>
                     <p>Why the association with the NEAA is important to TR Fastenings</p>
                     <button>Read article</button>
+                    <article><ArrowOutwardIcon style={{color:'rgb(153, 49, 153)'}}/></article>
                 </div>
                 <div>
 
                     <h4>TR VIC renowned manufacturer</h4>
                     <p>TR VIC - a renowned manufacturer</p>
                     <button>Read article</button>
+                    <article><ArrowOutwardIcon style={{color:'rgb(7, 166, 194)'}}/></article>
                 </div>
 
 
