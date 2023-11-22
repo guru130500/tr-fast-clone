@@ -27,7 +27,7 @@ const Landing = () => {
           </p>
         </div>
       </div>
-      {/* <div>
+      <div>
         <Crousel/>
       </div>
       <Portfolio/>
@@ -36,7 +36,7 @@ const Landing = () => {
       <Knowledge/>
       <Service/>
       <Latest/>
-      <Footer/>       */}
+      <Footer/>      
     </div>
   )
 }
