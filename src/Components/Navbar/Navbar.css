@@ -141,7 +141,7 @@
  {
     width: 90%;
     padding: 60px 0 67px 0;
-    top: -20px;
+    top: -50px;
     transition: transform ease-in-out .5s;
     transform: translateY(-100%);
     /* display: none; */
