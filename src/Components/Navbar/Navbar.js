@@ -795,7 +795,7 @@ const Navbar = () => {
                     </div>
                   </div>
                   <div className="contact"
-                  onClick={()=>navigate("/contact")}
+                  onClick={()=>navigate('/contact')}
                   >
                     Contact
                     <span>
@@ -1212,7 +1212,8 @@ const Navbar = () => {
               aria-controls="panel2a-content"
               id="panel2a-header"             
             >
-              <Typography  onClick={()=>navigate("/contact")}>Contact</Typography>
+              <Typography onClick={()=>navigate("/contact")}>Contact</Typography>
+              
             
             </AccordionSummary>
             <AccordionDetails>
