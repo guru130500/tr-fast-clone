@@ -60,6 +60,10 @@ const Navbar = () => {
                   <img src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png" />
                 </div> */}
                 <div className="navbar-upper">
+                <div className="nav-logo1">
+                  <img src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png" />
+                </div> 
+
                   <span>Bookmark this page</span>
                   <span>
                     <img src="https://trfastenings.blob.core.windows.net/sitecontent/2604c4e121f5483eb5ed983dcee78b0e.svg" />

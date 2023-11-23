@@ -1,6 +1,6 @@
 .navbarBody{
     width: 100%;
-    height: 225px;
+    height: 200px;
     box-shadow: 0px 3px 0px 0px gray;
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@
 }
 
 .navbar-container{
-    width: 97%;
+    width: 100%;
     height: 100%;
     z-index: 999;
     background: white;
@@ -36,7 +36,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     z-index: 999;
     background: white;
     /* border: 1px solid red; */
@@ -44,7 +44,7 @@
 
 .nav-logo{
     height: 100%;
-    width: 15%;
+    width: 11%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,12 +63,20 @@
 }
 
 
-/* .navbar-upper-right{
+.navbar-upper-right{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* z-index: 999;
+    background: white;
+    position: relative; */
 
-} */
+    /* border: 1px solid red; */
+}
 
 .navbar-upper{
-    height: 48%;
+    height: 40%;
     display: flex;
     align-items: baseline;
     justify-content: flex-end;
@@ -104,14 +112,16 @@
 }
 
 .menu-list .menuContainer{
+    width: 100%;
     display: flex;
     align-items: center;
     list-style: none;
+    justify-content: space-between;
     /* border: 1px solid red; */
 }
 
 .menu-list div{
-    margin: 8px;
+    margin: 4px;
     display: flex;
     font-size: 18px;
     cursor: pointer;
@@ -291,7 +301,7 @@
 
 .investors:hover .nav-dropdown-menu-body-investors{
     position: absolute;
-    transform: translateY(38%);
+    transform: translateY(29%);
     padding: 60px 0 67px 0;
     left: 5%;
     /* z-index: 5; */
@@ -299,7 +309,7 @@
 
 .products:hover .nav-dropdown-menu-body-products{
     position: absolute;
-    transform: translateY(46%);
+    transform: translateY(24.9%);
     padding: 60px 0 67px 0;
     left: 5%;
     /* z-index: 5; */
@@ -307,7 +317,7 @@
 
 .knowledge:hover .nav-dropdown-menu-body-knowledge{
     position: absolute;
-    transform: translateY(24.5%);
+    transform: translateY(20%);
     padding: 60px 0 67px 0;
     left: 5%;
     /* z-index: 5; */
@@ -463,13 +473,15 @@
 
 @media (min-width:991px) and (max-width:1200px){
 
-    /* .navbar-upper{
-        border: 1px solid red;
+    .navbar-upper{
+        height: 52%;
+        /* border: 1px solid red; */
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        /* gap: 2%; */
 
-    } */
+    }
 
     .nav-logo{
         display: none;
@@ -479,19 +491,43 @@
         display: none;
     }
 
-    /* .expand{
-        color: aqua !important;
-    } */
+    .navbar-upper-right{
+        width: 98vw;
+        /* border: 1px solid red; */
+    }
 
-    /* .nav-logo1{
-        display: block;
-    } */
+    .nav-logo1{
+        height: 90%;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+
+    .nav-logo1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu-list{
+        width: 100%;
+        white-space: wrap;
+        /* border: 1px solid red; */
+    }
+
+    .menuContainer{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
     
+    .menuContainer div{
+        /* border: 1px solid red; */
+        margin: 2px;
+    }
 }
 
 .profile-dropdown1{
     display: none !important;
-    /* visibility: hidden; */
     width: 170px ;
     display: flex ;
     flex-direction: column;
